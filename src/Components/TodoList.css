@@ -1,0 +1,55 @@
+.todo-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.todo-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.todo-item {
+  background-color: #f9f9f9;
+  border-left: 6px solid royalblue;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.todo-item h3 {
+  color: royalblue;
+  margin-bottom: 10px;
+}
+
+.todo-item p {
+  margin: 5px 0;
+}
+
+.completed {
+  color: green;
+  font-weight: bold;
+}
+
+.pending {
+  color: crimson;
+  font-weight: bold;
+}
+
+.loading,
+.error {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,35 @@
+.products {
+  width: 80%;
+  margin: auto;
+}
+
+.products h1 {
+  text-align: center;
+  margin: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,.2);
+}
+
+.card h2 {
+  color: royalblue;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: royalblue;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.card a:hover {
+  background: dodgerblue;
+}
